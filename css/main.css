@@ -32,7 +32,7 @@ img {
 .bg {
   background-color: rgb(176, 22, 87);
   padding: 1em;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .icon {
@@ -40,6 +40,7 @@ img {
   float: left;
 }
 
+@media only screen and (min-width: 25em) {
 
 
 

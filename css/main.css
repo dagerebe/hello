@@ -33,16 +33,85 @@ img {
   background-color: rgb(176, 22, 87);
   padding: 1em;
   min-height: 100vh;
+  background-image: url('../img/marked-up.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.about-bg {
+    background-color: rgba(176, 22, 87, .1);
+}
+
+.about {
+  margin: 0 1.5em;
+}
+
+.hello {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  line-height: 1em;
+  margin-bottom: .5em;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+.about h3 {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+
+.about p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: 1.5em;
 }
 
 .icon {
-  width: 50%;
-  float: left;
+  width: 30%;
+  float: right;
+  margin-bottom: 3em;
 }
 
 @media only screen and (min-width: 25em) {
 
+  .me {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+}
+
+@media only screen and (min-width: 38em) {
+
+  .bg {
+    max-height: 100vh;
+  }
+
+   .me {
+    width: 40%;
+  }
+}
+
+
+@media only screen and (min-width: 60em) {
+
+   .me {
+    width: 30%;
+  }
+
+  .about p {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+}
 
 
 

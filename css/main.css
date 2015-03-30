@@ -34,7 +34,6 @@ img {
   padding: 1em;
   min-height: 100vh;
   background-image: url('../img/marked-up.svg');
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
@@ -81,6 +80,10 @@ img {
 
 @media only screen and (min-width: 25em) {
 
+  .bg {
+      background-attachment: fixed;
+  }
+  
   .me {
     width: 60%;
     margin-left: auto;

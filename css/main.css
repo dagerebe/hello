@@ -80,10 +80,6 @@ img {
 
 @media only screen and (min-width: 25em) {
 
-  .bg {
-      background-attachment: fixed;
-  }
-  
   .me {
     width: 60%;
     margin-left: auto;

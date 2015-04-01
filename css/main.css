@@ -70,13 +70,14 @@ img {
 .footer {
   background-color: rgb(184, 30, 79);
   padding: 1em;
-  height: 11em;
 }
 
 .icon {
   width: 30%;
-  float: right;
   padding: .5em;
+  margin-bottom: 3em;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 25em) {
@@ -92,7 +93,12 @@ img {
   }
 
   .icon {
-    width: 25%;
+    width: 20%;
+  }
+
+  .about p {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
 }
@@ -103,21 +109,31 @@ img {
     max-height: 100vh;
   }
 
-   .me {
+  .me {
     width: 40%;
   }
+
+  .icon {
+    width: 50%;
+  }
+
+  .about p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
 }
 
 
 @media only screen and (min-width: 60em) {
 
-   .me {
+  .me {
     width: 30%;
   }
 
   .about p {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
 }

@@ -70,10 +70,11 @@ img {
 .footer {
   background-color: rgb(184, 30, 79);
   padding: 1em;
+  text-align: center;
 }
 
 .icon {
-  width: 30%;
+  width: 5em;
   padding: .5em;
   margin-bottom: 3em;
   display: inline-block;
@@ -92,10 +93,6 @@ img {
     margin-right: auto;
   }
 
-  .icon {
-    width: 20%;
-  }
-
   .about p {
     margin-left: 5%;
     margin-right: 5%;
@@ -111,10 +108,6 @@ img {
 
   .me {
     width: 40%;
-  }
-
-  .icon {
-    width: 50%;
   }
 
   .about p {
